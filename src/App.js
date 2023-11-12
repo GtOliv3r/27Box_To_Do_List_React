@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import { TodoWrapper } from './components/TodoWrapper';
+import 'react-toastify/dist/ReactToastify.css';
 
+// Componente funcional App
 function App() {
+  // Renderiza o componente TodoWrapper que contém a lógica da aplicação
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TodoWrapper></TodoWrapper>
     </div>
   );
 }
 
+// Exporta o componente App como componente padrão do arquivo
 export default App;

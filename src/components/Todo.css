@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+
+/* Adicione isso ao seu arquivo de estilo, por exemplo, TodoWrapper.css */
+.concluir {
+    background-color: rgba(200, 2, 127); /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    font-weight: bold; /* Adiciona negrito à fonte do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remova a borda padrão do botão */
+    margin-left: 10px; /* Borda arredondada do botão */
+    cursor: pointer;
+  }
+  
+ /* Efeito de perspectiva ao passar o mouse */
+.concluir:hover {
+    transition: 0.3s;
+    background-color: #eaefea; /* Altera a cor de fundo ao passar o mouse */
+    color: black;
+  }
+  
+  .emoji {
+    margin-left: 5px; /* Adapte o espaçamento conforme necessário */
+  }
+  
+  .completed {
+    /* Adicione aqui os estilos para tarefas concluídas */
+    color: gray;
+  }
+  
+  .completed .emoji {
+    /* Adicione aqui os estilos específicos para a classe emoji quando a tarefa está concluída */
+    text-decoration: none; /* Remova a linha do emoji */
+  }
+
+
+
+  

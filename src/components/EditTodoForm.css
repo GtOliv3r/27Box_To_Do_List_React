@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid #ffffff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #ffffff;
+}
+
+.todo-input::placeholder {
+  color: rgba(255, 255, 255, 0.862);
+}
+
+.todo-btn {
+  background: rgba(5, 231, 156, 0.903);
+  color: #000000;
+  font-weight: bold; /* Adiciona negrito à fonte do botão */
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+.todo-btn:hover{
+transition: 0.3s;
+background-color: #eaefea; /* Altera a cor de fundo ao passar o mouse */
+color: black;
+}
+
+
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+ 
